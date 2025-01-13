@@ -1,0 +1,12 @@
+{
+    "builds": [
+      { "src": "package.json", "use": "@vercel/node" },
+      { "src": "tsconfig.json", "use": "@vercel/next" }
+    ],
+    "build": {
+      "env": {
+        "NODE_ENV": "production"
+      }
+    }
+  }
+  
